@@ -1,0 +1,52 @@
+
+/* ////////////////////////////////////////////////// General styling ////////////////////////////////////////////////// */
+
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////// Nav ////////////////////////////////////////////////// */
+
+.nav-list-wrapper {
+    position: fixed;
+}
+
+/* ////////////////////////////////////////////////// Main ////////////////////////////////////////////////// */
+
+.jumbo-img-wrapper {
+    height: 100vh;
+    background-image: url('../img/jumbo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.jumbo-heading-wrapper {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    text-align: center;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    margin: 0 5%;
+    letter-spacing: 3px;
+    line-height: 3rem;
+    color: #FFF;
+}
