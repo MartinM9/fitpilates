@@ -26,6 +26,20 @@ a {
 
 .nav-list-wrapper {
     position: fixed;
+    width: 100%;
+    background-color: blue;
+    z-index: 999;
+    padding: 2.5% 0;
+}
+
+.nav-list-wrapper ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list-wrapper ul li a {
+    font-size: 1.8rem;
+    color: #FFF;
 }
 
 /* ////////////////////////////////////////////////// Main ////////////////////////////////////////////////// */
@@ -49,4 +63,76 @@ a {
     letter-spacing: 3px;
     line-height: 3rem;
     color: #FFF;
+}
+
+.about {
+    padding: 5%;
+}
+
+.logo-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+.description-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    line-height: 2.4rem;
+    text-align: center;
+    margin: 4% 0;
+}
+
+.description-img {
+    width: 80%;
+    margin: 2% auto;
+}
+
+.jumbo-img {
+    position: relative;
+}
+
+.jumbo-wrapper {
+    height: 100vh;
+    background-image: url('../img/jumbo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* ////////////////////////////////////////////////// Classes ////////////////////////////////////////////////// */
+
+.classes {
+    padding: 5%;
+}
+
+.classes-heading {
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 3rem;
+}
+
+.classes-heading {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.class-description-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.class-image {
+    width: 70%;
+    margin: 0 auto;
 }
